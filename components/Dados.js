@@ -5,7 +5,11 @@ export default function Dados(props) {
   return (
     <View>
 	   <Text style={styles.texto}>
-		   Nome: {props.nome}
+		   Nome: {props.nome} 
+	   </Text>
+	   <Text style={styles.texto}>
+		   idade: 
+		   {props.idade != "" ? 2022 - props.idade : ""}
 	   </Text>
 	</View>
   );
